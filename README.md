@@ -1,1 +1,1 @@
-# blogEB
+# blog
