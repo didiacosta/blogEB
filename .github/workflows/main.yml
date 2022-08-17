@@ -42,7 +42,7 @@ jobs:
           application_name: blog
           environment_name: blog-env
 
-          version_label: 2
+          version_label: 3
           region: "us-west-2"
           deployment_package: deploy.zip
           use_existing_version_if_available: true
