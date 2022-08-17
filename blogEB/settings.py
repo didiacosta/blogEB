@@ -29,7 +29,9 @@ SECRET_KEY = 'django-insecure-2s7==^!f6g1aru1v%i5d6l0d=#g16z&z2!&oer^xml08z1td_6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'blogeb-env.eba-cbuyztmk.us-west-2.elasticbeanstalk.com']
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
 
@@ -61,7 +63,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'blogEB.urls'
+ROOT_URLCONF = 'blogeb.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blogEB.wsgi.application'
+WSGI_APPLICATION = 'blogeb.wsgi.application'
 
 
 # Database
